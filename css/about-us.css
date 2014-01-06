@@ -1,0 +1,88 @@
+.speciality{
+	display: block;
+	color: #666;
+	font-size: 0.75em;
+	margin-top: 15px;
+}
+
+.speciality .lang{
+	font-style: normal;
+}
+
+.speciality .porcentage{
+	float: right;
+	font-weight: normal;
+}
+
+.speciality progress{
+	-webkit-appearance: none;
+	display: block;
+	width: 100%;
+}
+
+progress[value]::-webkit-progress-bar{
+	background-color: #fff;
+	border-radius: 2px;
+}
+
+progress[value]::-webkit-progress-value{
+	background-color: #e54d26;
+	border-radius: 2px;
+}
+
+.we-do .tabs{
+	list-style: none;
+	padding-top: 20px;
+}
+
+.we-do .tabs li{
+	display: inline;
+}
+
+.we-do .tabs li a{
+	float: left;
+	border: 1px solid #d3d3d3;
+	background: #f6f6f6;
+	text-decoration: none;
+	font-size: 0.75em;
+	color: #666;
+	padding: 10px;
+	position: relative;
+	z-index: 1;
+}
+
+.we-do .tabs li a.active{
+	border-top: 1px solid #e54d26;
+	border-bottom: none;
+	background-color: #fff;
+}
+
+.we-do .tab-content{
+	border: 1px solid #d3d3d3;
+	display: none;
+	clear: both;
+	background-color: #fff;
+	padding: 20px;
+	position: relative;
+	top: -2px;
+}
+
+.we-do .tab-content.active{
+	display: block;
+}
+
+.other-links{
+	padding-top: 10px;
+	list-style: none;
+}
+
+.other-links a{
+	display: block;
+	background: #fff;
+	border: 1px solid #d3d3d3;
+	margin-bottom: 10px;
+	font-size: 0.75em;
+	text-decoration: none;
+	padding: 10px;
+	color: #444;
+}

@@ -1,0 +1,17 @@
+.highlight{
+	background: url('../images/highlight.jpg') no-repeat center;
+	width: 100%;
+	height: 560px;
+}
+
+.highlight .title-1{
+	color: #e54d26;
+	padding-top: 200px;
+}
+
+.highlight p{
+	max-width: 580px;
+	color: #fff;
+	font-size: 1.25em;
+	margin-bottom: 30px;
+}

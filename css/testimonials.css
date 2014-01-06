@@ -1,0 +1,63 @@
+.testimonials blockquote{
+	border: 2px solid rgba(0, 0, 0, 0.1);
+	border-top: 2px solid #e54d26;
+	display: inline-block;
+	width: 35%;
+	margin-right: 20px;
+	padding: 40px;
+	font-size: 0.75em;
+	color: #666;
+}
+
+.testimonials cite{
+	display: block;
+	text-align: right;
+	font-style: normal;
+}
+
+.testimonials a{
+	text-decoration: none;
+	color: #e54d26;
+}
+
+.testimonials .clients-logos{
+	display: inline-block;
+	list-style: none;
+	width: 40%;
+	vertical-align: top;
+}
+
+.testimonials .clients-logos li{
+	position: relative;
+	display: inline-block;
+	padding: 10px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+.testimonials .clients-logos li:after{
+	content: " ";
+	display: inline-block;
+	width: 20px;
+	height: 10px;
+	background-color: #fff;
+	z-index: 1;
+	position: absolute;
+	bottom: -2px;
+	right: -10px;
+}
+
+.testimonials .clients-logos li:last-child{
+	border-right: none;
+	border-bottom: none;
+}
+
+.testimonials .clients-logos li:nth-child(3n){
+	border-right: none;
+}
+
+.testimonials .clients-logos li:nth-child(4n),
+.testimonials .clients-logos li:nth-child(5n){
+	border-bottom: none;
+}

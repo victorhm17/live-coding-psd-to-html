@@ -1,0 +1,220 @@
+@import url('fonts.css');
+@import url('header.css');
+@import url('highlight.css');
+@import url('work-blog.css');
+@import url('works.css');
+@import url('testimonials.css');
+@import url('about-us.css');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Open Sans', arial, tahoma sans-serif;
+	font-size: 100%;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.col{
+	width: 375px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+.col:last-child{
+	margin-right: 0;
+}
+
+.bg-gray{
+	background-color: #f6f6f6;
+	border-top: 1px solid #ededed;
+}
+
+[class*="title-"]{
+	font-family: BebasNeueRegular;
+}
+
+.title-1{
+	font-size:  3.75em;
+}
+
+.title-2, .title-3{
+	color: #444;
+	font-size:  1.88em;
+}
+
+.title-4{
+	font-size:  0.94em;
+}
+
+.box-section{
+	padding: 50px 0;
+}
+
+.box-section p{
+	color: #666;
+	font-size: 0.75em;
+}
+
+.box-section > .container >.title-3{
+	color: #444;
+}
+
+.box-section > .container >.title-3,
+.box-section > .container >.title-3 + p{
+	text-align: center;
+}
+
+.box-section > .container >.title-3 + p a{
+	color: #e54d26;
+	text-decoration: none;
+}
+
+.box-section > .container >.title-3 + p{
+	font-size: 0.75em;
+	color: #666;
+	margin-bottom: 30px;
+}
+
+.color-orange{
+	color: #e54d26;
+}
+
+.btn{
+	display: inline-block;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	color: #e54d26;
+	background-color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	-webkit-transition: all .25s linear;
+	-moz-transition: all .25s linear;
+	-o-transition: all .25s linear;
+	-ms-transition: all .25s linear;
+	transition: all .25s linear;
+}
+
+.btn-large{
+	padding: 15px 35px;
+}
+
+.btn:hover{
+	background-color: #e54d26;
+	color: #fff;
+}
+
+
+
+
+
+/****
+***** WELCOME INFO
+****/
+.welcome-info{
+	text-align: center;
+	padding: 40px 0;
+}
+
+.welcome-info p{
+	font-size: 1em;
+	color: #444;
+}
+/****
+***** END WELCOME INFO
+****/
+
+
+
+
+
+/****
+***** FOOTER
+****/
+.footer{
+	background-color: #313d53;
+	margin-top: 140px;
+	clear: both;
+	overflow: hidden;
+	padding-top: 40px;
+}
+
+.footer .title-5{
+	color: #fff;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.footer .title-5:after{
+	content: "";
+	border: 1px solid #8e9aad;
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 0;
+	width: 50%;
+}
+
+.footer p{
+	font-size: 0.75em;
+	color: #8995a8;
+	margin-bottom: 10px;
+}
+
+.footer .container > div{
+	float: left;
+	width: 23%;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.recent-works li{
+	list-style: none;
+	display: inline-block;
+
+}
+
+.footer .subfooter{
+	clear: both;
+	background: #273144;
+	margin-top: 20px;
+	padding: 15px 0;
+}
+
+.copyright{
+	font-size: 0.65em;
+	display: inline-block;
+}
+
+.footer-menu{
+	float: right;
+}
+
+.footer-menu li{
+	display: inline-block;
+	list-style: none;
+	padding-left: 15px;
+}
+
+.footer-menu li a{
+	font-size: 0.85em;
+	text-decoration: none;
+	color: #5f6b80;
+	font-family: BebasNeueRegular;
+}
+
+.footer-menu li a:hover{
+	color: #8e9aad;
+}
+
+
+/****
+***** END FOOTER
+****/
